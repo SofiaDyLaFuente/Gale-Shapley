@@ -39,7 +39,7 @@ Para a implementação eu criei três funções:
 - `lerArquivo()`: para ler os arquivos e tratar os dados corretamente, armazenando-os em dicionarios;
 - `galeShapley()`: para implementar a solução do problema;
 
-Na função `galeShapley()` eu tento emparelhar os alunos e os projetos de acordo com a nota e a preferencia pessoal desses alunos. O algoritmo realiza 10 tentativas de emparelhamento, para garantir que o emparelhamento encontrado é estável. Em cada tentativa, a ordem dos alunos é embaralhada, para que o algoritmo possa gerar diferentes combinações.
+Na função `galeShapley()` eu tento emparelhar os alunos e os projetos de acordo com a nota e a preferencia pessoal desses alunos. O algoritmo realiza 10 tentativas de emparelhamento, divididos em duas chamadas do algoritmo, para garantir que o emparelhamento encontrado é estável. Em cada tentativa, a ordem dos alunos é embaralhada, para que o algoritmo possa gerar diferentes combinações.
 
 Eu tentei anteriormente fazer sem embaralhamento, mas o algoritmo retornava apenas 54 alunos alocados. E tentei fazer o embaralhamento apenas uma vez, o que piorava ainda mais o algoritmo, retornando 48 alunos alocados.
 
