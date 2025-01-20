@@ -1,6 +1,8 @@
 # Gale-Shapley
 ### Repositório para a implementação do projeto 2 da disciplina de Teoria e Aplicação de Grafos - UnB
 
+Sofia Dy La Fuente Monteiro - 211055530
+
 -------
 
 Algoritmo implementado baseado no algoritmo de Gale-Shapley, usado para resolver problemas de emparelhamento estável. 
